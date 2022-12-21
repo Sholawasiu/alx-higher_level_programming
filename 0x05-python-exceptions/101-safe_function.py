@@ -11,4 +11,4 @@ def safe_function(fct, *args):
         print("Exception: {}".format(e), file=sys.stderr)
         return None
     else:
-        return 
+        return res
