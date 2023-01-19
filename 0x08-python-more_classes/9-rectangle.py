@@ -26,6 +26,7 @@ class Rectangle:
     def width(self):
         """Get/set the width of the Rectangle."""
         return self.__width
+    
     @width.setter
     def width(self, value):
         if not isinstance(value, int):
@@ -81,6 +82,7 @@ class Rectangle:
             size (int): The width and height of the new Rectangle.
         """
         return (cls(size, size))
+    
     def __str__(self):
         """Return the printable representation of the Rectangle.
         Represents the rectangle with the # character.
