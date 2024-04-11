@@ -1,8 +1,8 @@
 #!/usr/bin/python3
+
 """
 Matrix Multiplication
 """
-
 
 def matrix_mul(m_a, m_b):
     """
