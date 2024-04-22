@@ -1,4 +1,8 @@
-#!bin/bash/python3
+#!/usr/bin/python3
+"""
+Writes a string to a text file encoded with the standard encoding mode UTF-8.
+"""
+
 
 def write_file(filename="", text=""):
     """
