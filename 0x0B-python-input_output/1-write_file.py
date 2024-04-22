@@ -1,3 +1,5 @@
+#!bin/bash/python3
+
 def write_file(filename="", text=""):
     """
     Function that writes to a text file (UTF-8) and returns
