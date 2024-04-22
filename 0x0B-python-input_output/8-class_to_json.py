@@ -1,14 +1,18 @@
 #!/usr/bin/python3
-""" My class module
+"""
+Class to JSON
 """
 
-class MyClass:
-    """ My class
+
+def class_to_json(obj):
     """
+    Function to return the dictionary description with simple DSA
+    for JSON serialization of an object.
 
-    def __init__(self, name):
-        self.name = name
-        self.number = 0
+    Arg:
+        obj (object): instance of a Class
 
-    def __str__(self):
-        return "[MyClass] {} - {:d}".format(self.name, self.number)
+    Returns:
+        Dictionary representation
+    """
+    return obj.__dict__
